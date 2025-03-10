@@ -18,6 +18,12 @@
   - Minimal boilerplate code
 
 ### UI Component Library
+- Material-UI (MUI)
+  - Comprehensive React UI framework
+  - Pre-built accessible components
+  - Theming and customization capabilities
+  - Used for AppBar, Radio buttons, Checkboxes, and form controls
+
 - Shadcn/UI
   - Accessible, customizable component library
   - Tailwind CSS integration

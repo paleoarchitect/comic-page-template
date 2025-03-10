@@ -3,16 +3,25 @@
 ## Immediate Objectives
 
 ### User Interface Design
-- [ ] Create initial wireframes for the main application layout
-- [ ] Design panel manipulation interface
-- [ ] Develop intuitive panel addition/deletion controls
-- [ ] Sketch out export and page setup screens
+- [x] Create initial wireframes for the main application layout
+- [x] Design panel manipulation interface
+- [x] Develop intuitive panel addition/deletion controls
+- [x] Sketch out export and page setup screens
+- [x] Implement MUI AppBar for application header
+- [x] Create Export Options section with Non-Photo Blue toggle
 
 ### Core Functionality Prototyping
-- [ ] Implement basic page dimension setting mechanism
-- [ ] Develop panel dragging and resizing functionality
-- [ ] Create initial gutter size adjustment logic
-- [ ] Build fundamental PDF export capability
+- [x] Implement basic page dimension setting mechanism
+- [x] Develop panel dragging and resizing functionality
+- [x] Create initial gutter size adjustment logic
+- [x] Build fundamental PDF export capability
+- [x] Implement configurable panel border colors for PDF export
+- [x] Standardize panel heights across different layouts
+
+### Next UI Enhancements
+- [ ] Add more export customization options
+- [ ] Improve panel styling controls
+- [ ] Enhance visual feedback for panel manipulation
 
 ## Technical Research
 - [ ] Investigate cross-platform development frameworks

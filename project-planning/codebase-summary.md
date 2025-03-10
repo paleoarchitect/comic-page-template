@@ -28,6 +28,15 @@ comic-template-creator/
 
 ## Recent Development Changes
 
+### Version 0.2.0 (UI and Export Enhancements)
+#### Implemented Features
+- Material-UI integration for improved UI components
+- Full-width AppBar for application header
+- Enhanced panel layout options with MUI radio buttons
+- Export options section with "Non-Photo Blue" toggle
+- PDF export with configurable panel border colors
+- Standardized panel heights across different layouts
+
 ### Version 0.1.0 (Initial Development)
 #### Implemented Features
 - Basic application structure with Electron and React
@@ -36,7 +45,6 @@ comic-template-creator/
 - Basic state management setup
 
 #### Pending Implementation
-- Export functionality
 - Advanced panel styling
 - Comprehensive error handling
 

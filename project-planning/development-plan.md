@@ -4,23 +4,28 @@ Given your time constraint of about 1 hour/day, I'll outline a focused plan for 
 
 ## MVP Core Features to Prioritize
 
-1. **Basic Page Setup**
+1. **Basic Page Setup** ✅
    - Standard comic book size presets
    - Custom page dimensions
    - Simple margin settings
 
-2. **Simple Panel Management**
+2. **Simple Panel Management** ✅
    - Add/delete panels
    - Basic panel positioning
    - Simple resizing functionality
+   - Standardized panel heights across layouts
 
-3. **Standard PDF Export**
+3. **Standard PDF Export** ✅
    - Basic export to PDF format
    - Simple page preview
+   - Non-Photo Blue option for panel borders
+   - Configurable border colors
 
-4. **Core User Interface**
-   - Minimal viable interface
-   - Essential controls only
+4. **Core User Interface** ✅
+   - Material-UI components integration
+   - Full-width AppBar for application header
+   - Radio buttons for panel layout selection
+   - Export options with checkbox controls
 
 ## Development Approach
 

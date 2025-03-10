@@ -38,6 +38,8 @@ The Comic Book Template Creator is a specialized design tool that empowers comic
 
 ### 5. Export Options
 - Export to PDF (print-ready and web-optimized)
+  - Non-Photo Blue option for panel borders
+  - Configurable border colors
 - Export to image formats (PNG, JPEG)
 - Export to vector formats (SVG)
 - Embed metadata and crop marks

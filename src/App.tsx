@@ -27,7 +27,7 @@ function App() {
       <CssBaseline />
       <AppBar position="static" sx={{ borderRadius: 0 }}>
         <Toolbar>
-          <Typography variant="h1" align="center" color="white" sx={{ flexGrow: 1 }}>
+          <Typography variant="h1" color="white">
             Comic Page Template Creator
           </Typography>
         </Toolbar>
