@@ -1,0 +1,8 @@
+/* Custom styles for Comic Page Template Creator */
+
+/* Layout for sidebar and preview */
+.app-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1.5rem;
+}
