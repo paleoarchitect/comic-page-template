@@ -12,16 +12,16 @@ const PageCanvas: React.FC<PageCanvasProps> = ({ scale = 96 }) => {
     pageSize, 
     margins, 
     panels,
-    setPanelPreset6 // Import the preset function
+    setPanelPreset4 // Changed to use 4-panel preset to match sidebar default
   } = usePageStore();
 
-  // Force the 6-panel layout on component mount
+  // Use the 4-panel layout on component mount to match sidebar default
   useEffect(() => {
     // Ensure panels are created on initial render
     if (panels.length === 0) {
-      setPanelPreset6();
+      setPanelPreset4();
     }
-  }, [panels.length, setPanelPreset6]);
+  }, [panels.length, setPanelPreset4]);
 
   // Get dimensions from the page size
   const dimensions = { width: pageSize.width, height: pageSize.height };
