@@ -5,21 +5,20 @@ A desktop application for creating comic book page templates with customizable p
 ## Features
 
 - **Page Setup**
-  - Standard comic book size presets (Standard Comic, Manga, European Album, Digest)
-  - Custom page dimensions
-  - Adjustable margins
+  - Standard comic book size (11" x 17")
+  - Predefined margins
+  - Clean, modern interface
 
 - **Panel Management**
-  - Add/delete panels
-  - Drag panels to position them
-  - Panel information display
   - Panel layout presets (1, 4, 5, 6 panels)
   - Standardized panel heights across layouts
+  - Automatic gutter spacing (0.25")
+  - Panels positioned within the content area
 
 - **Export**
   - Export to PDF format
-  - Non-Photo Blue option for panel borders
-  - Configurable border colors
+  - Non-Photo Blue option for panel borders (light blue #a4dded)
+  - Black borders when Non-Photo Blue is disabled
 
 ## Technology Stack
 
@@ -58,21 +57,21 @@ npm run build
 
 ## Usage
 
-1. **Select Page Size**: Choose from standard presets or create a custom size
-2. **Set Margins**: Adjust the top, right, bottom, and left margins
-3. **Choose Panel Layout**: Select from preset layouts (1, 4, 5, or 6 panels)
-4. **Position Panels**: Drag panels to position them on the page
-5. **Configure Export Options**: 
+1. **Choose Panel Layout**: Select from preset layouts (1, 4, 5, or 6 panels) using the radio buttons
+2. **Configure Export Options**: 
    - Toggle "Non-Photo Blue" option for panel borders
    - When enabled, panels will have light blue borders (#a4dded)
    - When disabled, panels will have black borders (#000000)
-6. **Export**: Click "Download PDF" to generate and download your template
+3. **Export**: Click "Download PDF" to generate and download your template
 
 ## Future Enhancements
 
+- Additional page size presets (Manga, European Album, Digest)
+- Custom page dimensions
 - Panel resizing functionality
 - Panel rotation
 - Multiple page support
 - Template saving and loading
 - Grid snapping
-- Gutter settings
+- Additional export formats (PNG, JPEG, SVG)
+- Enhanced panel styling options
