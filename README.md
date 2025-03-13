@@ -1,4 +1,5 @@
 # Comic Page Template Creator
+https://paleoarchitect.github.io/comic-page-template/
 
 A desktop application for creating comic book page templates with customizable panels. Features a modern Material-UI interface with an AppBar, radio buttons for panel layout selection, and checkbox controls for export options.
 
